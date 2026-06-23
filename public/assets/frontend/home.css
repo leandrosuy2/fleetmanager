@@ -1,0 +1,45 @@
+.footer-menu{width:100%}.footer-link{display:flex;justify-content:center}.icon{display:flex;flex-direction:column}.number-input-container{position:relative;display:inline-block;text-align:center}.number-input-container input[type="number"]{width:100px;padding:5px 12px;border:1px solid #ccc}.number-input-container input[type="number"]::-webkit-inner-spin-button,.number-input-container input[type="number"]::-webkit-outer-spin-button{-webkit-appearance:none;appearance:none;margin:0}.number-input-container .increment{display:block;font-weight:900;color:#333;cursor:pointer;position:absolute;top:1px}.number-input-container .decrement{display:block;font-weight:900;color:#333;cursor:pointer;position:absolute}.number-input-container .increment{right:0%;transform:translateX(-50%)}.number-input-container .decrement{right:0%;transform:translateX(-50%);bottom:1px}input[type="time"]::-webkit-calendar-picker-indicator,input[type="time"]::-webkit-inner-spin-button,input[type="time"]::-webkit-clear-button{display:none}.datetime{width:100%;display:flex;gap:10px}.custom-select{border:unset;width:100%;max-width:400px;border:1px solid #ced4da;appearance:none;background-image:url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23131313%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E);background-repeat:no-repeat;background-position:right .7rem top 50%;background-size:.65rem auto}.date-time1 .date1{width:50%;display:inline;height:40px;border-radius:10px;margin-right:10px;text-align:center}.date-time1 .time1{width:50%;display:inline;height:40px;border-radius:10px;text-align:center}@media only screen and (max-width:992px){.custom-select{max-width:unset!important}}@media only screen and (max-width:576px){.datetime{display:flex;flex-direction:column}.datetime .time{margin-top:1rem;width:100%;margin-left:0}.datetime .date{width:100%}.hero-slider .owl-carousel{z-index:0}.date-time .time1,.date-time .date1{width:100%}}.close.btn-check:focus+.close.btn,.close.btn:focus{border-color:#fff!important}.close.btn-check:active+.btn,.close.btn-check:checked+.btn,.close.btn.active,.close.btn.show,.close.btn:active{border-color:#fff!important}.edit-gender-btn{list-style:none;padding:0;margin:0}.edit-gender-btn li{display:inline-block;margin-right:10px}.edit-gender-btn input[type="radio"]{display:none}.our-services .owl-carousel .owl-item img{display:flex;width:100%;height:auto}.active-btn{background-color:#130f41;color:#fff;transition:0.3s}.inactive-btn{background-color:#F8F8FA!important;color:black!important;transition:0.3s}.active-btn:hover{background-color:#0e0c35!important;color:white!important}.inactive-btn:hover{background-color:#F8F8FA!important;color:black!important}.date-time1{margin-top:30px;animation:fadein 2s}
+
+:root{--br-ink:#172033;--br-muted:#657084;--br-primary:#0f766e;--br-primary-dark:#0b534d;--br-accent:#f59e0b;--br-line:#d9e2ea;--br-surface:#f7fafc}
+.br-home-hero{position:relative;overflow:hidden;min-height:640px;padding:110px 0 90px;background:linear-gradient(135deg,#f8fcfb 0%,#eef7f5 48%,#fef7e8 100%)!important}
+.br-home-hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.94),rgba(255,255,255,.58) 56%,rgba(255,255,255,.15));pointer-events:none}
+.br-home-hero .container{position:relative;z-index:1}
+.br-home-hero-copy{max-width:640px}
+.br-home-eyebrow{display:inline-flex;align-items:center;margin-bottom:16px;padding:9px 14px;border:1px solid rgba(15,118,110,.18);border-radius:999px;background:#fff;color:var(--br-primary-dark);font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:0}
+.br-home-hero h1{margin:0;color:var(--br-ink);font-size:54px;line-height:1.04;font-weight:900;letter-spacing:0}
+.br-home-hero p{max-width:570px;margin:22px 0 0;color:var(--br-muted);font-size:18px;line-height:1.7}
+.br-home-actions{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-top:32px}
+.br-home-hero .book-now-main-slider,.book-cab-submit .booking-save{border:0;border-radius:8px;background:var(--br-primary)!important;color:#fff!important;box-shadow:0 14px 28px rgba(15,118,110,.24);font-weight:800}
+.br-home-hero .book-now-main-slider{display:inline-flex!important;align-items:center;justify-content:center;margin:0!important;padding:14px 24px;line-height:1.2;position:relative!important;left:auto!important;top:auto!important}
+.br-home-hero .book-now-main-slider:hover,.book-cab-submit .booking-save:hover{background:var(--br-primary-dark)!important;color:#fff!important}
+.br-home-phone{display:inline-flex;align-items:center;min-height:48px;margin:0!important;color:var(--br-ink);font-size:18px;font-weight:800;text-decoration:none}
+.br-home-phone:hover{color:var(--br-primary)}
+.br-home-highlights{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:36px;max-width:560px}
+.br-home-highlights div{min-height:96px;padding:18px;border:1px solid rgba(23,32,51,.08);border-radius:8px;background:rgba(255,255,255,.76);box-shadow:0 12px 28px rgba(23,32,51,.07)}
+.br-home-highlights strong{display:block;color:var(--br-ink);font-size:24px;line-height:1;font-weight:900}
+.br-home-highlights span{display:block;margin-top:8px;color:var(--br-muted);font-size:13px;font-weight:700}
+.br-home-visual{position:relative;min-height:430px;display:flex;align-items:center;justify-content:center}
+.br-home-car{width:min(100%,720px);filter:drop-shadow(0 34px 38px rgba(23,32,51,.22));transform:translateX(18px)}
+.br-home-floating-card{position:absolute;left:22px;bottom:22px;width:min(320px,82%);padding:18px;border-radius:8px;background:#fff;box-shadow:0 22px 50px rgba(23,32,51,.16)}
+.br-home-floating-card strong{display:block;color:var(--br-ink);font-size:17px}
+.br-home-floating-card span{display:block;margin-top:6px;color:var(--br-muted);font-size:13px;line-height:1.5}
+.book-a-cab-detail{position:relative;margin-top:0;padding:76px 0;background:var(--br-surface)}
+.book-a-cab-detail .feet-img{opacity:.06;pointer-events:none}
+.book-cab-form{position:relative;z-index:1;padding:34px!important;border:1px solid rgba(23,32,51,.08);border-radius:8px;background:#fff;box-shadow:0 24px 55px rgba(23,32,51,.1)}
+.book-cab-form h1{margin-bottom:22px;color:var(--br-ink);font-size:34px;font-weight:900;letter-spacing:0}
+.book-cab-form .form-label{color:var(--br-ink);font-weight:800}
+.book-cab-form .form-control,.book-cab-form .form-select,.book-cab-form textarea{min-height:48px;border:1px solid var(--br-line)!important;border-radius:8px!important;background:#fff!important;color:var(--br-ink)}
+.book-cab-form textarea{padding:14px!important;opacity:1!important}
+.book-cab-form .input-effect,.book-cab-form .vehicle-type,.book-cab-form .num-person,.book-cab-form .date-time{margin-bottom:18px}
+.book-cab-form .btn-now{display:flex;gap:10px;flex-wrap:wrap}
+.book-cab-form .btn.now,.active-btn,.inactive-btn{border-radius:8px!important;padding:10px 14px!important;font-weight:800}
+.book-cab-form .btn.now.active,.active-btn{background:var(--br-primary)!important;color:#fff!important}
+.book-cab-form .btn.now:not(.active),.inactive-btn{background:#eef4f7!important;color:var(--br-ink)!important}
+.book-cab-submit .booking-save{width:min(100%,300px);min-height:52px;font-size:16px}
+.car-img{display:flex;align-items:center;justify-content:center;min-height:520px}
+.car-img .tesla-car-backimg{max-width:100%;filter:drop-shadow(0 30px 38px rgba(23,32,51,.18))}
+.our-vehicles,.our-services,.testimonial{background:#fff}
+.our-vehicle-heading h1,.our-services-heading h1,.testimonial-heading h1{color:var(--br-ink);font-size:40px;font-weight:900;letter-spacing:0}
+@media (max-width:991px){.br-home-hero{min-height:auto;padding:90px 0 60px}.br-home-hero h1{font-size:42px}.br-home-visual{min-height:320px}.br-home-car{transform:none}.book-cab-form{padding:24px!important}.book-a-cab-detail{padding:54px 0}}
+@media (max-width:767px){.br-home-actions{align-items:flex-start;flex-direction:column}.br-home-phone{min-height:0}}
+@media (max-width:576px){.br-home-hero{padding:70px 0 46px}.br-home-hero h1{font-size:34px}.br-home-hero p{font-size:16px}.br-home-highlights{grid-template-columns:1fr}.br-home-floating-card{position:relative;left:auto;bottom:auto;margin-top:-12px}.book-cab-form h1,.our-vehicle-heading h1,.our-services-heading h1,.testimonial-heading h1{font-size:28px}.book-cab-form .row>[class*="col-"]{width:100%;max-width:100%;flex:0 0 100%}.book-cab-form .date-time .row,.book-cab-form .vehicle-type .row,.book-cab-form .num-person .row,.book-for-label .row{gap:8px}.book-cab-form .btn-now{margin-top:6px}.datetime{gap:8px}}
