@@ -1,0 +1,12 @@
+{
+  "name": "fleetmanager",
+  "private": true,
+  "scripts": {
+    "build": "echo \"No frontend build required\"",
+    "dev": "echo \"No frontend build required\"",
+    "start": "echo \"Laravel app is served by PHP/nginx\"",
+    "production": "echo \"No frontend build required\""
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
