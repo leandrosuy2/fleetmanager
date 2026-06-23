@@ -18,7 +18,6 @@
 Thumbs.db
 *.log
 
-/storage/installed
 
 /npm-debug.log
 /yarn-error.log
